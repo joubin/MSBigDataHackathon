@@ -65,4 +65,4 @@ These are general notes and ideas from interesting topics and discussions with o
 * PowerBI has excellent integration with iPhones by using the Microsoft PowerBI application
 * You can use the [PowerBI Designer](https://powerbi.microsoft.com/designer) as a canvas to create your report visualizations
 
-
+![Initial structure of our program](http://i.imgur.com/O5P4hsm.jpg)
