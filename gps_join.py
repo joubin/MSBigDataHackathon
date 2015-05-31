@@ -9,6 +9,9 @@ def concat_features_by_neighbors(df_labels, df_features,
                                  radius=1./500.,
                                  scale=np.array([1.,1.])):
 
+    df_labels = df_labels.dropna(subset=grid)
+    df_features = df_features.dropna(subset=grid)
+
     X = df_features.as_matrix(X_names)
     xy_features = df_features.as_matrix(grid)
     xy_labels = df_labels.as_matrix(grid)
